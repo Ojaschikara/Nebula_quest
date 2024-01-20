@@ -1,0 +1,114 @@
+h1, h2, h3, h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(82,80,80);
+    transition: color 0.3s;
+      
+}
+
+h3:hover{
+    color: blue;
+}
+h4:hover{
+    color: blue;
+}
+#one, #two, #three, #four{
+    width: 25%;
+    height: 540px;
+    padding: .5%;
+}
+.circular-container_two:hover{
+  border: 2px solid black;
+}
+
+.circular-container_two {
+    width: 62px;
+    height: 65px;
+    overflow: hidden;
+    border-radius: 50%; 
+    transition: border 0.33s ease;
+    border: 2px solid transparent;
+  }
+  .circular-container-two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  } 
+  .circular-container {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 50%; 
+  }
+  .circular-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .verticle-line{
+    width: 2px;
+    height: 570px; 
+    background-color: #646262a0; 
+}
+  #parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: EEEEEE;
+}
+#four div img{
+    width: 50%;
+  }
+  #two div, #three div{
+    display: flex;
+    justify-content: space-around;
+  }
+  #two div h3{
+    display: inline;
+}
+#two div div{
+    width: auto;
+}
+#three div{
+    margin: auto;
+    align-items: center;
+    margin-bottom: 20%;
+}
+#four div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#four div{
+    position: relative;
+      width: 100%; /* Set the width of the container */
+      height: 250px; /* Set the height of the container */
+}
+#four div h2{
+    position: absolute;
+      top: 50%; /* Adjust the vertical position of the text */
+      left: 50%; /* Adjust the horizontal position of the text */
+      transform: translate(-50%, -50%); /* Center the text */
+      color: white; /* Set the color of the text */
+      text-align: center;
+      font-size: 25px;
+}
+#four div{
+    width: auto;
+    height: 155px;
+    border: 1px solid black;
+    margin: 6px;
+    transition: background-color 5s;
+
+}
+#four div img:hover{
+    box-shadow: 0 0 9px black;
+}
+
+
+
+
+
+
+  

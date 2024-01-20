@@ -1,0 +1,153 @@
+#main_header{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: grey;
+  height: 50px;
+  align-items: center;
+}
+#main_header a{
+  color: white;
+  font-size: large;
+  
+}
+.menu-button {
+  padding: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.menu-content {
+  max-height: 0;
+overflow: hidden;
+transition: max-height 1s ease-out;
+}
+.menu-button:hover + .menu-content {
+max-height: 1000px; 
+transition: max-height 1.5s ease-in-out; 
+}
+.menu-content a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  background-color: #fff;
+}
+.menu-content a:hover {
+  background-color: #ddd;
+}
+#main{
+width: 70%;
+margin: auto;
+justify-content: center;
+display: flex;
+
+} 
+#display{
+width: 15%;
+
+height: auto;
+}
+#display_pic{
+position: relative;
+display: inline-block;
+}
+
+#display_btn{
+display: flex;
+justify-content: space-between;
+position: relative;
+top: -220px;
+}
+#desc{
+margin-left: 1.5%;
+}
+#addtocart{
+margin-top: 10px;
+margin-bottom: 10px;
+background-color:rgb(2, 136, 71);
+color: white;
+width: 25%;
+height: 25px;
+border: none;
+font-weight: bolder;
+cursor: pointer;
+
+}
+#addtocart:hover{
+background-color: rgb(2, 95, 50);
+}
+#delivery img{
+width: 15%;
+margin-bottom: 1%;
+margin-right: 1%;
+}
+#delivery{
+display: flex;
+}
+#product_desc{
+margin-top: 2%;
+width: 80%;
+
+}
+#discount{
+width: 35%;
+padding: 3px;
+height: auto;
+background-color:rgb(204,227,245);
+
+}
+#discount p {
+display: inline;
+}
+#discount p:nth-child(3){
+font-weight: bolder;
+}
+#discount img{
+width: 15%;
+background-color:rgb(204,227,245);
+
+}
+
+#desc select{
+width: 40%;
+height: 30px;
+
+}
+#main{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#discount{
+height: 50px;
+}
+
+#display div img{
+width: 100%;
+border: 2px solid black;
+
+
+}
+#display div video{
+width: 100%;
+}
+#display div{
+
+margin-right: 10px;
+margin-top: 40%;
+
+}
+#delivery_container{
+width: 50%;
+border: 1px solid black;
+padding: 2px;
+
+}
+a{
+font-size: 12px;
+margin-right: 12px;
+}
+#left, #right{
+background-color: white;
+font-size: 25px;
+border: 1px solid black;
+}

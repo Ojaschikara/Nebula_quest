@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link rel="stylesheet" href="Product_page.css">
+</head>
+<body>
+    <div id="main_header">
+        <div><a href="index.html">Home</a></div>
+        <div><a href="Signup.html">Sign up</a></div>
+        <div><a href="Login.html" >Log in</a></div>
+        <div><a href="Product_page.html">Product Page</a></div>
+        <div><a href="Cart.html">Cart</a></div>
+    </div>
+    <div id="main">
+   
+    <div id="display" >
+        <div id="cntn">
+            <img id="img1" src="https://images.asos-media.com/products/asos-design-oversized-motocross-jacket-in-monochrome/205451280-1-ecru?$n_320w$&wid=317&fit=constrain" alt="">
+            <img id="img2" src="https://images.asos-media.com/products/asos-design-oversized-motocross-jacket-in-monochrome/205451280-2?$n_240w$&wid=40&fit=constrain" alt="">
+            <img  id="img3" src="https://images.asos-media.com/products/asos-design-oversized-motocross-jacket-in-monochrome/205451280-3?$n_240w$&wid=40&fit=constrain" alt="">
+            <img id="img4" src="https://images.asos-media.com/products/asos-design-oversized-motocross-jacket-in-monochrome/205451280-4?$n_240w$&wid=40&fit=constrain" alt="">
+            <img id="img5" src="https://freepngimg.com/save/30060-video-icon-free-download/512x512" alt="">
+            
+        </div>
+    </div>
+    <div id="display_pic">
+        
+        <img src="https://images.asos-media.com/products/asos-design-oversized-motocross-jacket-in-monochrome/205451280-1-ecru?$n_320w$&wid=317&fit=constrain" alt="">
+        <div id="display_btn">
+            <button id="left"><</button>
+        <button id="right">></button>
+        </div>
+        
+        
+    </div>
+    
+    <div id="desc">
+        <h2>ASOS DESIGN oversized motocross jacket in monochrome</h2>
+        <h2>£79.00</h2>
+        <div id="discount">
+            <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk0JDXBEV6yW8-AZUyCUyiNX-Xsm2O2yHCtA&usqp=CAU" alt=""> -->
+            <p>🏷️20% OFF 1000s OF STYLES! Use</p>
+            <p>code:</p><p> LETSGO</p>
+        </div>
+        <h3>COLOUR:ECRU</h3>  
+        <div>         
+        <label for="">Size:</label>
+        <select name="cloth" id="size">
+            <option value="" selected>Please select</option>
+            <option value="">XS - Chest 36</option>
+            <option value="">S Chest 38</option>
+            <option value="">M Chest 40</option>
+            <option value="">L Chest 42</option>
+            <option value="">XL Chest 44</option>
+            <option value="">2XL Chest 46-48</option>
+        </select>
+        <br>
+        <button id="addtocart">ADD TO BAG</button>
+    </div>
+
+        <div id="delivery_container">
+            <div id="delivery">
+                <img src="https://as1.ftcdn.net/v2/jpg/01/97/49/86/1000_F_197498617_A2i58jcXfMu4Eo8FcSWaea4I7QWtX4jY.jpg" alt="">
+                <p>Free delivery on qualifying orders.</p>
+                
+            </div>
+            <a href="https://www.asos.com/payments-and-deliveries/delivery/#feemsg=pdp%20returns%20message%20localPostageCharge" target="_blank">View our Delivery & Returns Policy</a>
+        </div>
+        
+        
+        <div id="product_desc">
+            <label for="myMenu" class="menu-button">Product Details</label>
+            <div class="menu-content" id="myMenu">
+                <h3>Jackets & Coats by ASOS DESIGN</h3>
+                <ul>
+                    <li>Throw on, go out</li>
+                    <li>Varsity design</li>
+                    <li>Spread collar</li>
+                    <li>Zip fastening</li>
+                    <li>Oversized fit</li>
+                </ul>
+                <h3>Product Code: 132981071</h3>
+            </div>
+            <br>
+        <div>
+            <label for="myMenu" class="menu-button">Brand</label>
+            <div class="menu-content" id="myMenu">
+                <p>This is ASOS DESIGN – your go-to for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in Plus and Tall. Created by us, styled by you.</p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="myMenu" class="menu-button">Size & Fit</label>
+            <div class="menu-content" id="myMenu">
+                <p>Model's height: 185cm / 6' 1''
+                    Model is wearing: Medium</p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="myMenu" class="menu-button">Look After Me</label>
+            <div class="menu-content" id="myMenu">
+              <p>Machine wash according to instructions on care label</p>  
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="myMenu" class="menu-button">About Me</label>
+            <div class="menu-content" id="myMenu">
+                <p>Faux leather: matte finish
+                    <br>
+                    Lining: 100% Polyester, Main: 100% Polyester.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- <script>
+let img1 = document.querySelector('#img1')
+let img2 = document.querySelector('#img2')
+let img3 = document.querySelector('#img3')
+let img4 = document.querySelector('#img4')
+let img5 = document.querySelector('#img5')
+let showcase =document.getElementById("display_pic img");
+let gallery = document.getElementById("cntn");
+let left_btn=document.querySelector("#left")
+let right_btn=document.querySelector("#right")
+left_btn.addEventListener("click",function(){
+    scrollLeft()
+})
+right_btn.addEventListener("click",function(){
+    scrollRight()
+})
+
+for(let i = 0; i < gallery.length; i++){
+    let showcase = 0;
+    if(showcase > 0){
+
+        showcase++;
+
+    }
+}
+
+</script> -->
+</body>
+</html>

@@ -4,24 +4,28 @@
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
     margin: auto;
-    /* background-color:burlywood ; */
+    background-color:burlywood ;
     text-align: center;
     width: 80%;
 }
     
-.div2Inner{
-    width: 80%;
-    margin: auto;
-}
-.div2Inner>img{
-width: 20em;
-height: 24em;
+/* .div2Inner{
+    
+    ;
+} */
+.div1Inner>img{
+width: 20rem;
+height: 24rem;
 }
 
 video{
-    
+    padding-bottom: 40px;
     margin-left: 10%;   
 }
-.yellowbar{
+.yellowBar{
     background-color: yellow;
+    text-align: center;
+    font-size: x-large;
+    font-weight:900;
+    font-style:initial;
 }

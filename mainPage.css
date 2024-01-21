@@ -1,0 +1,27 @@
+.div1Main{
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: auto;
+    /* background-color:burlywood ; */
+    text-align: center;
+    width: 80%;
+}
+    
+.div2Inner{
+    width: 80%;
+    margin: auto;
+}
+.div2Inner>img{
+width: 20em;
+height: 24em;
+}
+
+video{
+    
+    margin-left: 10%;   
+}
+.yellowbar{
+    background-color: yellow;
+}

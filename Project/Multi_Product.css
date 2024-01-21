@@ -50,3 +50,7 @@ option{
     color: white;
     font-weight: bold;
 }
+
+.container div button :nth-child(2){
+    background-color:red;
+}

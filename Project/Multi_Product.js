@@ -2577,7 +2577,7 @@ let container =document.querySelector(".container")
         "gender": "female",
         "category": "shoes",
         "availableSizes": [
-          40,
+          40, 
           41,
           42,
           43,
@@ -8390,7 +8390,17 @@ let container =document.querySelector(".container")
       }
     ]
     
-  
+
+    let sortSelect = document.querySelector("#size")
+    sortSelect.addEventListener("change",function(){
+      let selectedSize = sortSelect.value
+      let arr = products.filter((ele) => {
+        return ele.availableSizes.includes(Number(selectedSize)) || ele.availableSizes.includes(selectedSize);
+      });  
+    })
+
+    container.innerHTML = '';
+
 
 
 function AppendData(){
@@ -8401,17 +8411,26 @@ function AppendData(){
         let price = document.createElement('h3')
         let Wishlist_btn = document.createElement("button")
         let category = document.createElement("p")
+        let addToCartBtn = document.createElement("button")
         container.append(div)
         image.setAttribute("src", `https://${ele.imageUrl}`);
         image.setAttribute("alt", ele.name + " Image");
         title.innerText = ele.name
         price.innerText= ele.price.current.text 
         Wishlist_btn.innerText="Wishlist"
-        div.append(image, title, price, Wishlist_btn, category)
+        div.append(image, title, price, Wishlist_btn, category, addToCartBtn)
         category.innerText = ele.category
+        addToCartBtn.innerText = "Add to Cart"
       })
-}
-AppendData()
+    }
+    AppendData()
 
 
 
+
+
+
+
+
+
+  

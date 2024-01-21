@@ -1,0 +1,13 @@
+#main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: grey;
+    height: 50px;
+    align-items: center;
+}
+a{
+    color: white;
+}

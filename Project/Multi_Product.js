@@ -8401,32 +8401,17 @@ function AppendData(){
         let price = document.createElement('h3')
         let Wishlist_btn = document.createElement("button")
         let category = document.createElement("p")
-        let size = document.createElement("select")
-        let option = document.createElement("option")
-        let div2 = document.querySelector("#sort")
-
-        
-        
-        
-       
         container.append(div)
         image.setAttribute("src", `https://${ele.imageUrl}`);
-
         image.setAttribute("alt", ele.name + " Image");
         title.innerText = ele.name
         price.innerText= ele.price.current.text 
         Wishlist_btn.innerText="Wishlist"
         div.append(image, title, price, Wishlist_btn, category)
-        category.innerText = ele.availableSizes
-
+        category.innerText = ele.category
       })
 }
-
 AppendData()
-
-
-
-
 
 
 

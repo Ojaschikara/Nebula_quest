@@ -1,0 +1,11 @@
+.topman{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    margin: auto;
+    gap: 5px;
+}
+.topmansDiv>.price{
+    color: red;
+    padding-top: 18px;
+}

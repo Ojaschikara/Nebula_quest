@@ -1,0 +1,131 @@
+h1, h2, h3, h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(82,80,80);
+    transition: color 0.3s;
+      
+}
+
+h3:hover{
+    color: blue;
+}
+h4:hover{
+    color: blue;
+}
+#one, #two, #three, #four{
+    width: 25%;
+    height: 540px;
+    padding: .5%;
+}
+.circular-container_two:hover{
+  border: 2px solid black;
+}
+
+.circular-container_two {
+    width: 62px;
+    height: 65px;
+    overflow: hidden;
+    border-radius: 50%; 
+    transition: border 0.33s ease;
+    border: 2px solid transparent;
+  }
+  .circular-container-two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  } 
+  .circular-container {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 50%; 
+  }
+  .circular-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .verticle-line{
+    width: 2px;
+    height: 290px; 
+    background-color: #646262a0; 
+}
+  #parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: EEEEEE;
+}
+
+#two :nth-child(2){
+    margin-top: 25%;
+
+  }
+  #one :nth-child(2){
+    margin-top: 25%;
+  }
+  #three div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#three div{
+    width: auto;
+    border: 1px solid black;
+    margin: 6px;
+    transition: background-color 5s;
+    position: relative;
+    
+    height: 240px;
+}
+#three div h2{
+    position: absolute;
+      top: 50%; 
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      color: white; 
+      text-align: center;
+      font-size: 25px;
+}
+#three div img:hover{
+    box-shadow: 0 0 9px black;
+}
+
+#four div h2{
+    position: absolute;
+      top: 50%; 
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      color: white; 
+      text-align: center;
+      font-size: 25px;
+}
+#four div{
+    width: auto;
+    border: 1px solid black;
+    margin: 6px;
+    transition: background-color 5s;
+    position: relative;
+    
+    height: 280px;
+
+}
+#four div:hover{
+    box-shadow: 0 0 9px black;
+}
+#four div img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+p{
+  text-align: center;
+}
+
+
+
+
+
+
+  

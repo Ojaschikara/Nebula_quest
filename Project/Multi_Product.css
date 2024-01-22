@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    gap: 20px;
+}
+
+button{
+    position: relative;
+    left:45%;
+    height: 30px;
+    bottom: 27%;
+    border: none;
+    width: 100px;
+    color: balck;
+    border-radius: 15px;
+    font-weight: bolder;
+    transition: border 2s;
+    background-color: antiquewhite;
+    
+}
+button:hover{
+    border: 2px solid black;
+}
+#sort{
+    width: 100%;
+    background-color: grey;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+select{
+    width: 30%;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 10px;
+    color: white;
+    background-color: grey;
+    border: 2px solid white;
+    border-radius: 2px;
+    outline: none;
+    font-weight: bolder;
+    
+    
+}
+option{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+.container div button :nth-child(2){
+    background-color:red;
+}
